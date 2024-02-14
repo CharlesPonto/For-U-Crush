@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+  }
+  .wrapper {
+    height: 100vh;
+    background: #000000;
+  
+    display: grid;
+    place-items: center;
+  }
+  
+  .portrait {
+    font-size: 8
+      px;
+    line-height: 10px;
+    background: url('crying.gif') fixed center no-repeat;
+    background-size: contain;
+  }
+  
+  .portrait {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(15, 15, 15, 0.1);
+  }
+  .picture-container {
+    position: relative;
+  }
+.sad-qa{
+    position: absolute;
+    top:20px; 
+    left: 20px;   
+    box-shadow: 0 0 50px 20px rgb(46, 43, 43);
+  }
+.sad-wa{
+    position: absolute;
+    top:20px; 
+    right: 20px; 
+    box-shadow: 0 0 50px 20px rgb(35, 32, 32);
+  }

@@ -1,0 +1,43 @@
+.asking-container{
+    align-content: center;
+    width: 600px;
+    height: 550px;
+    margin: 30px auto;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3) ;
+    background-color: rgb(254, 241, 241);
+    border-radius: 10px;
+    padding: 15px;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+#gif{
+    display: block;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.choices{
+    display: inline-block;
+    background: rgb(245, 153, 158);
+    padding: 15px 75px;
+    font-family: cursive;
+    text-decoration: none;
+    border-radius: 25px; 
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: .5s;
+    box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.2);
+    margin: 35px 0 10px 70px;
+      
+}
+.choices:hover{
+    padding: 20px 80px;
+    background: rgb(230, 55, 55);
+    color:white;
+    font-size: 25px;
+    border-radius: 25   px;
+    box-shadow: 0 0 5px 4px rgba(0,0,0,0.2);
+    
+}
